@@ -1,4 +1,5 @@
 
 FROM busybox
 
-ENTRYPOINT [ "/bin/sh" ]
+
+ENTRYPOINT [ "/bin/tail", "-f", "/dev/null" ]
